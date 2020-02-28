@@ -6,7 +6,7 @@ int main() {
     printf("Enter an number: ");
     scanf("%f", &x); // Note change of %d to %f
     // Complete the y = line below
-    y = (x+2)/(x-1);
+    y = 3*x + 4; // new stuff
     printf("y: %f\n", y);
     return 0;
 }
